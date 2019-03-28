@@ -6,7 +6,9 @@
           <img src="/svg/dc_logo.svg" alt="DC">
         </router-link>
         <div class="nav-links">
-          <router-link to="/">Home</router-link>
+          <router-link to="/">
+            Home
+          </router-link>
           <a href="#">Course</a>
           <div class="double-btn-links">
             <a href="#">Contribute</a>
