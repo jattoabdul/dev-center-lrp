@@ -56,7 +56,7 @@ export default {
   },
   router: {
     // base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/dev-center-lrp/' : '/',
-    base: process.env.NODE_ENV === 'dev' ? '/' : './',
+    base: process.env.DEPLOY_ENV === 'GH_PAGES' ? './' : '/',
     linkExactActiveClass: 'active'
   },
 
