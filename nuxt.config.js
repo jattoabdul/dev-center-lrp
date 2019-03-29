@@ -7,13 +7,6 @@ export default {
   mode: 'universal',
 
   /*
-  ** Router Base
-  */
-  router: {
-    base: routerBase
-  },
-
-  /*
   ** Headers of the page
   */
   head: {
@@ -65,7 +58,8 @@ export default {
     scss: './assets/scss/variables.scss'
   },
   router: {
-    linkExactActiveClass: 'active'
+    linkExactActiveClass: 'active',
+    base: routerBase
   },
 
   /*
