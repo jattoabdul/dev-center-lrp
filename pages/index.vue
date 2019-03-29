@@ -73,9 +73,39 @@
           </div>
         </div>
       </section>
-      <section class="supporters-and-socials" />
+      <section class="supporters-and-socials">
+        <div class="supported-by">
+          <span>Supported by</span>
+          <span class="supporters-images">
+            <img src="/png/google.png" alt="google supporter">
+            <img src="/png/slack.png" alt="slack supporter">
+            <img src="/png/facebook.png" alt="facebook supporter">
+            <img src="/png/vuejs.png" alt="vuejs supporter">
+          </span>
+        </div>
+        <div class="social-media">
+          <span>Social media</span>
+          <span class="social-media-images">
+            <a href="#">
+              <img src="/svg/facebook-sm.svg" alt="dev center facebook social media link">
+            </a>
+            <a href="#">
+              <img src="/svg/instagram-sm.svg" alt="dev center instagram social media link">
+            </a>
+            <a href="#">
+              <img src="/svg/twitter-sm.svg" alt="dev center twitter social media link">
+            </a>
+            <a href="#">
+              <img src="/svg/linkedin-sm.svg" alt="dev center linkedin social media link">
+            </a>
+          </span>
+        </div>
+      </section>
     </main>
-    <footer class="footer" />
+    <footer class="footer">
+      <img src="/png/dc_logo.png" alt="Dev Center Footer Logo">
+      <span class="copyright">Copyright &copy; 2019.</span>
+    </footer>
   </div>
 </template>
 

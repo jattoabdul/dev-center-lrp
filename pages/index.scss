@@ -236,5 +236,59 @@
         }
       }
     }
+
+    .supporters-and-socials {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      grid-gap: 8rem;
+      background: $light-blue;
+      padding: 5vh 5vw;
+
+      .supported-by {
+        height: 5rem;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+
+        .supporters-images {
+          display: inline-block;
+          margin-top: 0.5rem;
+          img {
+            height: 2rem;
+          }
+        }
+      }
+      .social-media {
+        height: 5rem;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+
+        .social-media-images {
+          display: inline-block;
+          margin-top: 0.5rem;
+          img {
+            height: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    background: $dark-black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7vh 5vw;
+
+    img {
+      height: 4rem;
+    }
+
+    .copyright {
+      color: $grey-white;
+    }
   }
 }
