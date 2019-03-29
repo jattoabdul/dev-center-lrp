@@ -20,12 +20,10 @@ script:
 
 deploy:
   # provider: pages
-  script:
-    - now --token=$NOW_TOKEN
-    - echo "Deploying to now... wait for 60 before setting alias"
-    # - now alias --token=$NOW_TOKEN
+  provider: script
+  script: now.sh
   skip-cleanup: true
-  github-token: $GITHUB_ACCESS_TOKEN
+  # github-token: $GITHUB_ACCESS_TOKEN
   # target-branch: gh-pages
   # local-dir: dist
   on:
