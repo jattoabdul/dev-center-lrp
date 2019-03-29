@@ -1,8 +1,5 @@
 import pkg from './package'
 
-// only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/dev-center-lrp/' : '/'
-
 export default {
   mode: 'universal',
 
@@ -57,9 +54,10 @@ export default {
   styleResources: {
     scss: './assets/scss/variables.scss'
   },
+  // NODE_ENV / DEPLOY_ENV fro router base
   router: {
-    linkExactActiveClass: 'active',
-    base: routerBase
+    base: process.env.NODE_ENV === 'GH_PAGES' ? '/dev-center-lrp/' : '/',
+    linkExactActiveClass: 'active'
   },
 
   /*
