@@ -10,6 +10,9 @@ branches:
   only:
   - master
 
+env:
+  - DEPLOY_ENV=GH_PAGES
+
 install:
   - yarn install
   - yarn run generate:gh-pages
