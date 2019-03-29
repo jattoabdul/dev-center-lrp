@@ -60,7 +60,18 @@
         <img src="/svg/dc-people.svg" alt="join the community of tech people">
       </section>
       <section class="contributors">
-        
+        <h2>Contributors</h2>
+        <div class="contributors-list">
+          <div v-for="(contributor, contributorIndex) in contributors" :key="contributorIndex" class="contributor" :class="{ blank: contributor.empty }">
+            <img v-if="!contributor.empty" class="profile-pic circle" :src="contributor.avatarUrl" alt="name of contributor">
+            <h4 v-if="!contributor.empty" v-text="contributor.fullName" />
+            <div v-if="!contributor.empty" class="social-links">
+              <a v-for="(link, linkIndex) in contributor.socialLinks" :key="linkIndex" :href="link[0]">
+                <img class="social-icon" :src="link[1]" alt="social icon image">
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="supporters-and-socials" />
     </main>
@@ -77,6 +88,74 @@ export default {
         { title: 'frontend development', level: 'mid-level', color: '#3DC7C9', link: 'https://learning-resource-path.gitbook.io/resources/#mid-level-front-end-development' },
         { title: 'frontend development', level: 'advanced', color: '#EB4A34', link: 'https://learning-resource-path.gitbook.io/resources/#advanced-level-front-end-development' },
         { title: 'frontend development', level: 'expert', color: '#FBA12C', link: 'https://learning-resource-path.gitbook.io/resources' }
+      ],
+      contributors: [
+        {
+          fullName: 'Seun Awoyele',
+          avatarUrl: 'https://avatars2.githubusercontent.com/u/10561590?s=460&v=4',
+          socialLinks: [
+            ['#', '/svg/facebook.svg'],
+            ['#', '/svg/twitter.svg'],
+            ['#', '/svg/slack.png']
+          ],
+          empty: false
+        },
+        {
+          fullName: 'Egwuenu Gift',
+          avatarUrl: 'https://avatars2.githubusercontent.com/u/17781315?s=460&v=4',
+          socialLinks: [
+            ['#', '/svg/facebook.svg'],
+            ['#', '/svg/twitter.svg'],
+            ['#', '/svg/slack.png']
+          ],
+          empty: false
+        },
+        {
+          fullName: 'Orim Dominic Adah',
+          avatarUrl: 'https://avatars3.githubusercontent.com/u/37955249?s=460&v=4',
+          socialLinks: [
+            ['#', '/svg/facebook.svg'],
+            ['#', '/svg/twitter.svg'],
+            ['#', '/svg/slack.png']
+          ],
+          empty: false
+        },
+        {
+          fullName: 'AminuJatto AbdulQahhar',
+          avatarUrl: 'https://avatars0.githubusercontent.com/u/12856872?s=460&v=4',
+          socialLinks: [
+            ['#', '/svg/facebook.svg'],
+            ['#', '/svg/twitter.svg'],
+            ['#', '/svg/slack.png']
+          ],
+          empty: false
+        },
+        {
+          empty: true
+        },
+        {
+          fullName: 'Abdulsamii Ajala',
+          avatarUrl: 'https://pbs.twimg.com/profile_images/1078793008244494338/DoFWQU9E_400x400.jpg',
+          socialLinks: [
+            ['#', '/svg/facebook.svg'],
+            ['#', '/svg/twitter.svg'],
+            ['#', '/svg/slack.png']
+          ],
+          empty: false
+        },
+        {
+          fullName: 'Sylvester Nnachi',
+          avatarUrl: 'https://pbs.twimg.com/profile_images/1054742899982852097/ypL4sWYR_400x400.jpg',
+          socialLinks: [
+            ['#', '/svg/facebook.svg'],
+            ['#', '/svg/twitter.svg'],
+            ['#', '/svg/slack.png']
+          ],
+          empty: false
+        },
+        {
+          empty: true
+        }
       ]
     }
   }

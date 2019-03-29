@@ -183,5 +183,58 @@
         height: 50vh;
       }
     }
+
+    .contributors {
+      padding: 1vh 5vw 10vh;
+
+      h2 {
+        font-size: 3rem;
+        font-weight: 300;
+        color: $dark;
+        margin-bottom: 0.75rem;
+      }
+
+      .contributors-list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1.5rem;
+        margin-top: 5rem;
+      }
+      .contributor {
+        background: white;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $deeper-blue;
+        border-radius: 12px;
+        padding: 4vh 1rem;
+        text-align: center;
+
+        h4 {
+          font-weight: 500;
+          margin-bottom: 0.75rem; 
+        }
+
+        .profile-pic {
+          height: 10rem;
+          margin-bottom: 1.5rem;
+        }
+
+        .social-icon {
+          height: 1.5rem;
+        }
+
+        &.blank {
+          background: $grey;
+        }
+
+        .social-links {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-gap: 10px;
+        }
+      }
+    }
   }
 }
