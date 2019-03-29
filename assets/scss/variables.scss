@@ -6,14 +6,21 @@
 // hex
 $green: #20CF78;
 $dark: #313131;
+$light-grey: #5e5e5e;
 $deep-blue: #2C7EEA;
 $dark-blue: #0E64BB;
 $blue: #2CA0FB;
+$light-blue: #f6f9fa;
 $cyan: #3DC7C9;
 $red: #EB4A34;
 $orange: #FBA12C;
- 
+
+
 // rgba
+$shadow-light: rgba(0, 0, 0, 0.04);
+
+// attributes
+$box-shadow: 0 40px 60px 0 #d8e0eb;
 
 // mixins
 @mixin breakpoint($min: 0, $max: 0) {

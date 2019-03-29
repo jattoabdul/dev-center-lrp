@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700');
 
 html, * {
-  font-family: 'Open Sans', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   // user-select: none;
@@ -27,6 +27,7 @@ h1 {
 h2 {
   font-size: 2rem;
   line-height: 120%;
+  font-weight: 500;
   margin: 2.8rem 0 1.68rem 0;
 }
 
@@ -108,4 +109,12 @@ button {
 
 .hide {
   display: none !important;
+}
+
+.card {
+  &.center-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
