@@ -54,9 +54,8 @@ export default {
   styleResources: {
     scss: './assets/scss/variables.scss'
   },
-  // NODE_ENV / DEPLOY_ENV fro router base
   router: {
-    base: process.env.NODE_ENV === 'GH_PAGES' ? '/dev-center-lrp/' : '/',
+    base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/dev-center-lrp/' : '/',
     linkExactActiveClass: 'active'
   },
 
