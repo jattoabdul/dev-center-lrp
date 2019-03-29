@@ -2,7 +2,7 @@
   "name": "devcenter-lrp",
   "version": "1.0.0",
   "description": "DevCenter Learning resource Path",
-  "author": "Abdulsamii",
+  "author": "DevCenter <jattoade@gmail.com> <kgasta@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
