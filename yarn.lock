@@ -1281,6 +1281,10 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
+"@types/bytes@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@types/bytes/-/bytes-3.0.0.tgz#549eeacd0a8fecfaa459334583a4edcee738e6db"
+
 "@types/istanbul-lib-coverage@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-1.1.0.tgz#2cc2ca41051498382b43157c8227fea60363f94a"
@@ -6122,6 +6126,12 @@ normalize-url@^2.0.1:
 normalize-url@^3.0.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
+
+now@^14.2.4:
+  version "14.2.4"
+  resolved "https://registry.yarnpkg.com/now/-/now-14.2.4.tgz#f7768954cf242886bb5c618b9b63b9d8f6c7438b"
+  dependencies:
+    "@types/bytes" "3.0.0"
 
 npm-bundled@^1.0.1:
   version "1.0.6"

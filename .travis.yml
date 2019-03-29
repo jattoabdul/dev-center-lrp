@@ -11,17 +11,22 @@ branches:
   - master
 
 install:
+  - npm install -g yarn
+  - npm install -g --unsafe-perm now
   - yarn install
-  - yarn run generate:gh-pages
 
 script:
   - echo "Skipping tests"
 
 deploy:
-  provider: pages
+  # provider: pages
+  script:
+    - now --token=$NOW_TOKEN
+    - echo "Deploying to now... wait for 60 before setting alias"
+    # - now alias --token=$NOW_TOKEN
   skip-cleanup: true
   github-token: $GITHUB_ACCESS_TOKEN
-  target-branch: gh-pages
-  local-dir: dist
+  # target-branch: gh-pages
+  # local-dir: dist
   on:
     branch: master
