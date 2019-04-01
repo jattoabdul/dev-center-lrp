@@ -58,7 +58,7 @@
       <section class="join-us">
         <h2>Join the Community</h2>
         <p>Learn what it means to join us &amp; contribute, find and <br> get started on a new project.</p>
-        <a class="join-us-btn" href="#">Join Us</a>
+        <a class="join-us-btn" href="https://bit.ly/dcs-slack" target="_blank">Join Us</a>
         <img src="/svg/dc-people.svg" alt="join the community of tech people">
       </section>
       <section class="contributors">
