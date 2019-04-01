@@ -1,7 +1,7 @@
 {
   "name": "devcenter-lrp",
   "version": "1.0.0",
-  "description": "DevCenter Learning resource Path",
+  "description": "Devcenter Frontend Learning Resource Path",
   "author": "Abdulsamii",
   "private": true,
   "scripts": {
