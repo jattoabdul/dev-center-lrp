@@ -24,12 +24,14 @@
           <h1 class="heading">
             Frontend Learning Resource Path
           </h1>
-          <p>
+          <p class="banner-desc">
             Discover the value of an open, collaborative effort by one of the largest open-source teams
             <br>
             <small>- by Devcenter Square</small>
           </p>
-          <button>Start Learning</button>
+          <a href="https://learning-resource-path.gitbook.io/resources/" class="btn" target="_blank">
+            Start Learning
+          </a>
         </div>
         <img class="dc-center" src="/svg/dc-img.svg" alt="dc-center">
       </div>

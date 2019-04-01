@@ -1,4 +1,4 @@
-# devcenter-lrp
+# DC Square Open Source
 
 > DevCenter Learning resource Path
 

@@ -74,7 +74,16 @@
       max-width: 100%;
     }
 
-    button {
+    .banner-desc {
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      padding: 0.75rem 2.5rem;
+      border: none;
+      color: white;
+      font-size: 0.9rem;
+      cursor: pointer;
       background: $green;
       border-radius: 10px;
       margin-top: 2rem;
