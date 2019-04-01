@@ -11,8 +11,8 @@
           </router-link>
           <a href="#">Course</a>
           <div class="double-btn-links">
-            <a href="#">Contribute</a>
-            <a href="#">
+            <a target="_blank" href="https://github.com/devcenter-square/Learning-Resource-Path-Front-End">Contribute</a>
+            <a target="_blank" href="https://github.com/devcenter-square/Learning-Resource-Path-Front-End">
               Star
               <img src="/svg/star.svg" alt="star">
             </a>

@@ -2,12 +2,14 @@ import pkg from './package'
 
 export default {
   mode: 'universal',
-
-  /*
+  router: {
+    base: routerBase,
+    linkExactActiveClass: 'active'
+  },
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: 'DC Square Open Source',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -53,10 +55,6 @@ export default {
   },
   styleResources: {
     scss: './assets/scss/variables.scss'
-  },
-  router: {
-    // base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/dev-center-lrp/' : '/',
-    linkExactActiveClass: 'active'
   },
 
   /*
