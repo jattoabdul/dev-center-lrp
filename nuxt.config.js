@@ -3,11 +3,8 @@ import pkg from './package'
 export default {
   mode: 'universal',
   router: {
-    base: routerBase,
     linkExactActiveClass: 'active'
   },
-  ** Headers of the page
-  */
   head: {
     title: 'DC Square Open Source',
     meta: [
