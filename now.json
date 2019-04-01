@@ -1,0 +1,10 @@
+{
+  "name": "devcenter-lrp",
+  "engines": {
+    "node": "^8.0.0"
+  },
+  "version": 1,
+  "alias": [
+    "devcenteropensource.com"
+  ]
+}

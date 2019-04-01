@@ -1,20 +1,11 @@
 import pkg from './package'
 
-// only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/dev-center-lrp/' : '/'
-
 export default {
   mode: 'universal',
-
-  /*
-  ** Router Base
-  */
   router: {
     base: routerBase,
     linkExactActiveClass: 'active'
   },
-
-  /*
   ** Headers of the page
   */
   head: {
@@ -74,6 +65,9 @@ export default {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
+      // if (!ctx.isDev) {
+      //   config.output.publicPath = './_nuxt/'
+      // }
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
