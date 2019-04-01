@@ -156,9 +156,9 @@ export default {
           fullName: 'AminuJatto AbdulQahhar',
           avatarUrl: 'https://avatars0.githubusercontent.com/u/12856872?s=460&v=4',
           socialLinks: [
-            ['#', '/svg/facebook.svg'],
-            ['#', '/svg/twitter.svg'],
-            ['#', '/svg/slack.png']
+            ['https://facebook.com/aminjatto', '/svg/facebook.svg'],
+            ['https://twitter.com/jattorize', '/svg/twitter.svg'],
+            ['https://devcenter-square.slack.com/', '/svg/slack.png']
           ],
           empty: false
         },
