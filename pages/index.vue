@@ -127,8 +127,7 @@ export default {
           avatarUrl: 'https://avatars2.githubusercontent.com/u/10561590?s=460&v=4',
           socialLinks: [
             ['https://github.com/seunawoyele', '/svg/github.svg'],
-            ['https://twitter.com/captspacely', '/svg/twitter.svg'],
-            ['https://devcenter-square.slack.com/', '/svg/slack.png']
+            ['https://twitter.com/captspacely', '/svg/twitter.svg']
           ],
           empty: false
         },
@@ -137,8 +136,7 @@ export default {
           avatarUrl: 'https://avatars2.githubusercontent.com/u/17781315?s=460&v=4',
           socialLinks: [
             ['https://github.com/lauragift21', '/svg/github.svg'],
-            ['https://twitter.com/lauragift21', '/svg/twitter.svg'],
-            ['https://devcenter-square.slack.com/', '/svg/slack.png']
+            ['https://twitter.com/lauragift21', '/svg/twitter.svg']
           ],
           empty: false
         },
@@ -147,8 +145,7 @@ export default {
           avatarUrl: 'https://avatars3.githubusercontent.com/u/37955249?s=460&v=4',
           socialLinks: [
             ['https://github.com/sudo-kaizen', '/svg/github.svg'],
-            ['https://twitter.com/sudo-kaizen', '/svg/twitter.svg'],
-            ['https://devcenter-square.slack.com/', '/svg/slack.png']
+            ['https://twitter.com/sudo-kaizen', '/svg/twitter.svg']
           ],
           empty: false
         },
@@ -156,7 +153,6 @@ export default {
           fullName: 'AminuJatto AbdulQahhar',
           avatarUrl: 'https://avatars0.githubusercontent.com/u/12856872?s=460&v=4',
           socialLinks: [
-            ['https://facebook.com/aminjatto', '/svg/facebook.svg'],
             ['https://twitter.com/jattorize', '/svg/twitter.svg'],
             ['https://github.com/jattoabdul', '/svg/github.svg']
           ],
@@ -169,7 +165,6 @@ export default {
           fullName: 'Abdulsamii Ajala',
           avatarUrl: 'https://pbs.twimg.com/profile_images/1078793008244494338/DoFWQU9E_400x400.jpg',
           socialLinks: [
-            ['https://fb.me/jalasem', '/svg/facebook.svg'],
             ['https://twitter.com/ajalaabdulsamii', '/svg/twitter.svg'],
             ['https://github.com/jalasem', '/svg/github.svg']
           ],
@@ -179,7 +174,6 @@ export default {
           fullName: 'Sylvester Nnachi',
           avatarUrl: 'https://pbs.twimg.com/profile_images/1054742899982852097/ypL4sWYR_400x400.jpg',
           socialLinks: [
-            ['https://www.facebook.com/sylvester.nnachi', '/svg/facebook.svg'],
             ['https://twitter.com/sylvesternachi', '/svg/twitter.svg'],
             ['https://github.com/sylvesternnachi', '/svg/github.svg']
           ],
