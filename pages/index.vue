@@ -25,7 +25,7 @@
             Frontend Learning Resource Path
           </h1>
           <p class="banner-desc">
-            Discover the value of an open, collaborative effort by one of the largest open-source teams
+            Get started on your path to learning frontend development or discover new ways to ramp up your skill on the frontend development path.
             <br>
             <small>- by Devcenter Square</small>
           </p>
@@ -126,9 +126,9 @@ export default {
           fullName: 'Seun Awoyele',
           avatarUrl: 'https://avatars2.githubusercontent.com/u/10561590?s=460&v=4',
           socialLinks: [
-            ['#', '/svg/facebook.svg'],
-            ['#', '/svg/twitter.svg'],
-            ['#', '/svg/slack.png']
+            ['https://github.com/seunawoyele', '/svg/github.svg'],
+            ['https://twitter.com/captspacely', '/svg/twitter.svg'],
+            ['https://devcenter-square.slack.com/', '/svg/slack.png']
           ],
           empty: false
         },
@@ -136,9 +136,9 @@ export default {
           fullName: 'Egwuenu Gift',
           avatarUrl: 'https://avatars2.githubusercontent.com/u/17781315?s=460&v=4',
           socialLinks: [
-            ['#', '/svg/facebook.svg'],
-            ['#', '/svg/twitter.svg'],
-            ['#', '/svg/slack.png']
+            ['https://github.com/lauragift21', '/svg/github.svg'],
+            ['https://twitter.com/lauragift21', '/svg/twitter.svg'],
+            ['https://devcenter-square.slack.com/', '/svg/slack.png']
           ],
           empty: false
         },
@@ -146,9 +146,9 @@ export default {
           fullName: 'Orim Dominic Adah',
           avatarUrl: 'https://avatars3.githubusercontent.com/u/37955249?s=460&v=4',
           socialLinks: [
-            ['#', '/svg/facebook.svg'],
-            ['#', '/svg/twitter.svg'],
-            ['#', '/svg/slack.png']
+            ['https://github.com/sudo-kaizen', '/svg/github.svg'],
+            ['https://twitter.com/sudo-kaizen', '/svg/twitter.svg'],
+            ['https://devcenter-square.slack.com/', '/svg/slack.png']
           ],
           empty: false
         },
@@ -158,7 +158,7 @@ export default {
           socialLinks: [
             ['https://facebook.com/aminjatto', '/svg/facebook.svg'],
             ['https://twitter.com/jattorize', '/svg/twitter.svg'],
-            ['https://devcenter-square.slack.com/', '/svg/slack.png']
+            ['https://github.com/jattoabdul', '/svg/github.svg']
           ],
           empty: false
         },
@@ -169,9 +169,9 @@ export default {
           fullName: 'Abdulsamii Ajala',
           avatarUrl: 'https://pbs.twimg.com/profile_images/1078793008244494338/DoFWQU9E_400x400.jpg',
           socialLinks: [
-            ['#', '/svg/facebook.svg'],
-            ['#', '/svg/twitter.svg'],
-            ['#', '/svg/slack.png']
+            ['https://fb.me/jalasem', '/svg/facebook.svg'],
+            ['https://twitter.com/ajalaabdulsamii', '/svg/twitter.svg'],
+            ['https://github.com/jalasem', '/svg/github.svg']
           ],
           empty: false
         },
@@ -179,9 +179,9 @@ export default {
           fullName: 'Sylvester Nnachi',
           avatarUrl: 'https://pbs.twimg.com/profile_images/1054742899982852097/ypL4sWYR_400x400.jpg',
           socialLinks: [
-            ['#', '/svg/facebook.svg'],
-            ['#', '/svg/twitter.svg'],
-            ['#', '/svg/slack.png']
+            ['https://www.facebook.com/sylvester.nnachi', '/svg/facebook.svg'],
+            ['https://twitter.com/sylvesternachi', '/svg/twitter.svg'],
+            ['https://github.com/sylvesternnachi', '/svg/github.svg']
           ],
           empty: false
         },
